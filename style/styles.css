@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.head{
+  text-align: center;
+}
+
+.list ol{
+  list-style: none;
+}
+.list a{
+  text-decoration: none;
+}
+
+.servicios_beneficios{
+  background-color: #4D4D4D;
+}
+.servicios_beneficios p h2{
+  color: white;
+}
+.beneficio{
+  color:white;
+}
+
+.contacto{
+  background-color: #4D4D4D;
+}
+.contacto h1{
+  color: white;
+}
+.email p{
+  color: white;
+}
+.phone p{
+  color: white;
+}
+.follow{
+  color: #ffffff;
+}

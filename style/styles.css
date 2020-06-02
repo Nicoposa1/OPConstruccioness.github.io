@@ -123,8 +123,19 @@ body{
   flex-wrap: inherit;
   padding: 5em 1em;
 }
+.container-content{
+  position: relative;
+  z-index: 10;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+}
+.container-content img{
+  padding-bottom: 1.5em;
+}
 .hero h1 {
   margin: 0;
+  padding-bottom: .5em;
 }
 .hero-image{
   position: absolute;
@@ -135,7 +146,11 @@ body{
   width: 100%;
 }
 /* <-- End Head --> */
-
+/* <-- Nosotros --> */
+.container-nosotros{
+  text-align: center;
+}
+/* <-- End Nosotros --> */
 
 .servicios_beneficios{
   background-color: #4d4d4d;

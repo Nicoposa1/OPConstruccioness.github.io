@@ -145,14 +145,40 @@ body{
   bottom: 0em;
   width: 100%;
   filter: opacity(85%) blur(1px);
+  border-bottom: 3px solid #EBAD1C;
 }
 /* <-- End Head --> */
 /* <-- Nosotros --> */
 .container-nosotros{
   text-align: center;
 }
+.container-nosotros h1{
+  border-bottom: 2px solid #EBAD1C;
+  width: fit-content;
+  margin: auto;
+  padding-top: 1.5em;
+}
+.container-nosotros p{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.nosotros-img{
+  margin:0
+}
 /* <-- End Nosotros --> */
-
+/* <-- Servicio y beneficios --> */
+.container-servicio{
+  text-align: center;
+}
+.servicioh1{
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 2em;
+  border-bottom: 2px solid #EBAD1C;
+}
+.parrafo-servicio{
+  margin: 1.5em 0;
+}
 .servicios_beneficios{
   background-color: #4d4d4d;
 }
@@ -163,6 +189,7 @@ body{
   color:white;
   margin: 0;
 }
+/* <-- end servicio y beneficio --> */
 
 .contacto{
   background-color: #4d4d4d;

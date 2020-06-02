@@ -43,7 +43,7 @@ body{
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
-
+/* <-- HEDER --> */
 .container{
   padding: 0 1em;
 }
@@ -52,16 +52,20 @@ body{
   display: block;
   height: auto;
   text-align: center;
-  background-color: white;
-  border-bottom: 1px solid #EBAD1C;
+  border-bottom: 1.5px solid #EBAD1C;
   z-index: 20;
   width: 100vw;
+  height: 50px;
   background-color: white;
-  margin-top:20px;
   position: fixed;
+  margin-top: 0;
+  top: 0em;
 }
 .header ol{
   display: block;
+}
+.container--menu{
+  height: 50px;
 }
 .menu{
   left: -100vw;
@@ -71,6 +75,7 @@ body{
 .head{
   text-align: center;
   margin: 0;
+  /* margin-top: 11px; */
 }
 .head img{
   margin-top:10px;
@@ -83,8 +88,12 @@ body{
   position: fixed;
   z-index: 40;
   left: 5px;
-  top: 5px;
+  top: 7px;
+  font-size: 1.2em;
 }
+/* <-- end header --> */
+
+/* <-- Burger Button --> */
 .menu{
   position: fixed;
   left: -100vw;
@@ -103,6 +112,30 @@ body{
 .menu a{
   text-decoration: none;
 }
+/* <-- end burguer button --> */
+/* <-- head --> */
+.container--hero{
+  flex: 1;
+  margin: 0  auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap: inherit;
+  padding: 5em 1em;
+}
+.hero h1 {
+  margin: 0;
+}
+.hero-image{
+  position: absolute;
+  top:0;
+  left: 0em;
+  right: 0;
+  bottom: 0em;
+  width: 100%;
+}
+/* <-- End Head --> */
+
 
 .servicios_beneficios{
   background-color: #4d4d4d;

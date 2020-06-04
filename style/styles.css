@@ -233,11 +233,22 @@ body{
   padding-bottom: 1.5em;
 }
 /* <-- end portafolio --> */
+/* <-- Contacto --> */
 .contacto{
   background-color: #4d4d4d;
 }
 .contacto h1{
   color: white;
+  padding-top: 1.5em;
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 2px solid #EBAD1C;
+}
+.contacto figure{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  padding-top: 1.5em;
 }
 .email p{
   color: white;
@@ -249,8 +260,29 @@ body{
 }
 .phone p{
   color: white;
-  padding-left: 5px;
+  padding-left: .5em;
+}
+.p-phone {
+  margin: 0;
+  padding-left: .5em;
+}
+.contacto h2{
+  text-align: center;
+}
+.social-media{
+  font-size: 2em;
+  text-align: center;
+  padding-top: .5em;
+  padding-bottom: 1em;
+  /* padding-top: .5em; */
+}
+.social-media a{
+  padding-left: .5em;
+  color: white;
+  text-decoration: none;
 }
 .follow{
   color: #ffffff;
 }
+/* <-- end contacto --> */
+/* <-- footer --> */

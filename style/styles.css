@@ -286,3 +286,31 @@ body{
 }
 /* <-- end contacto --> */
 /* <-- footer --> */
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .5em;
+  height: 30pc;
+}
+
+.copiright{
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+.p-copi{
+  margin: 0rem;
+  padding-left: .3em;
+}
+.design{
+  align-items: center;
+  display: flex;
+  font-size: 10px;
+}
+.design p{
+  margin: 0;
+}
+.design a{
+  color: black;
+  text-decoration: underline;
+}

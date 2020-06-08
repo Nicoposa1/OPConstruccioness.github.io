@@ -105,12 +105,21 @@ body{
   align-items: center;
   justify-content: center;
   transition: .3s;
+  top: 0;
+}
+.menu.is-active{
+  left: 0;
 }
 .menu ol{
   list-style: none;
+  padding: 0;
+}
+.menu li{
+  padding-bottom: .5em;
 }
 .menu a{
   text-decoration: none;
+  color: black;
 }
 /* <-- end burguer button --> */
 /* <-- head --> */
@@ -290,7 +299,7 @@ body{
   display: flex;
   justify-content: space-between;
   padding: 0 .5em;
-  height: 30pc;
+  height: 30px;
 }
 
 .copiright{

@@ -315,9 +315,12 @@ body{
   align-items: center;
   display: flex;
   font-size: 10px;
+  padding-right: 10px;
+  font-weight: 600;
 }
 .design p{
   margin: 0;
+  color: black;
 }
 .design a{
   color: black;

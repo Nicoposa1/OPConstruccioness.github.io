@@ -145,19 +145,21 @@
     // console.log(burguerButton);
 
     const links = document.querySelector('.link')
-    // console.log(links);
-    
 
     ipad.addListener(validation)
+
+    if(ipad.matches){
+      burguerButton.addEventListener('click', hideShow)
+      menu.addEventListener('click', hideMenu)
+    }
 
     function validation(event) {
       if(event.matches){
         burguerButton.addEventListener('click', hideShow)
-        Array.from(links).forEach(link => {
-          link.addEventListener('click', hideShow)
-        })
+        menu.addEventListener('click', hideMenu)
       }else{
         burguerButton.removeEventListener('click', hideShow)
+        menu.removeEventListener('click', hideMenu)
       }
     }
     validation(ipad)
@@ -169,7 +171,17 @@
         menu.classList.add('is-active')
       }
     }
+
+    function hideShow(){
+      menu.classList.contains('is-active') 
+      ? menu.classList.remove('is-active') 
+      : menu.classList.add('is-active')
+    }
     
+    function hideMenu(){
+      menu.classList.remove('is-active')
+    }
+
   </script>
 </body>
 </html>

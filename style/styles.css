@@ -367,9 +367,9 @@ body{
 }
 
 @media (min-width: 768px){
-  .burguer-button{
+  /* .burguer-button{
     display: none;
-  }
+  } */
   header{
     height: 40px;
   }
@@ -396,5 +396,10 @@ body{
   }
   .menu li{
     padding-right: 10px;
+  }
+}
+@media (min-width: 480px){
+  .burguer-button{
+    display: none;
   }
 }

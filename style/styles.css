@@ -127,7 +127,7 @@ body{
   margin-top: 50px;
   padding: 2em 1em .5em 1em;
 }
-.container--hero{
+.hero-con{
   flex: 1;
   margin: 0  auto;
   display: inherit;
@@ -136,14 +136,14 @@ body{
   flex-wrap: inherit;
   /* padding: 5em 1em;*/
 }
-.container-content{
+.content{
   position: relative;
   z-index: 10;
   justify-content: center;
   text-align: center;
   /* display: grid; */
 }
-.container-content img{
+.content img{
   padding-bottom: .5em;
   display: flex;
   margin:auto;
@@ -162,14 +162,17 @@ body{
   filter: opacity(85%) blur(1px);
   border-bottom: 3px solid #EBAD1C;
 }
-.container-content button{
+.content button{
   background-color: white;
   border: 2px solid #EBAD1C;
   border-radius: 5px;
 }
-  .container-content button a{
+  .content button a{
   text-decoration: none;
   color: black;
+  }
+  .content button:hover{
+    background: #EBAD1C;
   }
 
 /* <-- End Head --> */
@@ -178,13 +181,13 @@ body{
   text-align: center;
   margin-top: 40px;
 }
-.container-nosotros h1{
+.nosotros-cont h1{
   border-bottom: 2px solid #EBAD1C;
   width: fit-content;
   margin: auto;
   /* padding-top: 1.5em; */
 }
-.container-nosotros p{
+.nosotros-cont p{
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
@@ -377,6 +380,9 @@ body{
 }
 
 @media (min-width: 768px){
+  header{
+    position: relative;
+  }
   .burguer-button{
     display: none;
   }
@@ -407,9 +413,38 @@ body{
   .menu li{
     padding-right: 10px;
   }
+  .hero{
+    display: flex;
+    justify-content: space-between;
+    margin: o;
+    padding: 0;
+  }
+  .hero-con{
+    padding:0 ;
+    border-bottom: 2px solid #EBAD1C;
+    align-items: center;
+  }
+  .content{
+    width: 50%;
+    padding: 0;
+  }
+  .hero-image{
+    position: relative;
+    height: 300px;
+    object-fit: cover;
+    width: 70%;
+    border-bottom: none;
+    filter: none;
+    filter: opacity(95%) blur(0px);
+    clip-path: polygon(34% 0, 100% 0%, 100% 100%, 0% 100%);
+
+  }
 }
 @media (min-width: 425px){
-  .container-nosotros{
+
+}
+@media (min-width: 425px){
+  .nosotros-cont{
     padding-top: 3em;
   }
 }
@@ -417,8 +452,11 @@ body{
   .hero{
     padding-bottom: 5em;
   }
-  .container-content img{
+  .content img{
     padding-bottom: 2em;
+  }
+  .content button{
+    height: 2em;
   }
 }
 @media (min-width: 340px){

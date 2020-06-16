@@ -45,7 +45,7 @@ body{
 }
 /* <-- HEDER --> */
 .container{
-  padding: 0 1em;
+  padding: 0;
 }
 
 .header{
@@ -177,7 +177,7 @@ body{
 
 /* <-- End Head --> */
 /* <-- Nosotros --> */
-.container-nosotros{
+.nosotros-cont{
   text-align: center;
   margin-top: 40px;
 }
@@ -199,7 +199,7 @@ body{
 }
 /* <-- End Nosotros --> */
 /* <-- Servicio y beneficios --> */
-.container-servicio{
+.servicio-cont{
   text-align: center;
 }
 .parrafo-servicio{
@@ -239,7 +239,7 @@ body{
 }
 /* <-- end servicio y beneficio --> */
 /* <-- Portafolio --> */
-.container-portafolio h1{
+.portafolio-cont h1{
   width: fit-content;
   margin: auto;
   padding-top: 1.5em;
@@ -347,7 +347,7 @@ body{
 }
 /* <-- end contacto --> */
 /* <-- footer --> */
-.container-footer{
+.footer-cont{
   display: flex;
   justify-content: space-between;
   padding: 0 .5em;
@@ -380,6 +380,17 @@ body{
 }
 
 @media (min-width: 768px){
+  .container{
+    max-width: 768px;
+    margin: auto;
+  }
+  .container--menu{
+    max-width: 768px;
+    margin: auto;
+  }
+  .hero-con{
+    border-bottom: 0px solid;
+  }
   header{
     position: relative;
   }
@@ -416,12 +427,11 @@ body{
   .hero{
     display: flex;
     justify-content: space-between;
-    margin: o;
-    padding: 0;
+    border-bottom: 2px solid #EBAD1C;
+    padding: 0px;
   }
   .hero-con{
     padding:0 ;
-    border-bottom: 2px solid #EBAD1C;
     align-items: center;
   }
   .content{
@@ -437,11 +447,28 @@ body{
     filter: none;
     filter: opacity(95%) blur(0px);
     clip-path: polygon(34% 0, 100% 0%, 100% 100%, 0% 100%);
-
+  }
+  .servicios_beneficios{
+    text-align: center;
+  }
+  .beneficio-cont{
+    background: #4d4d4d;
+    padding-bottom: 2em;
+  }
+  .design p{
+    font-size: 1.3em;
   }
 }
-@media (min-width: 425px){
 
+@media (min-width: 500px){
+  .slider{
+    width: 500px;
+    margin: auto;
+  }
+  .slider img{
+    height: 350px;
+    width: 500px;
+  }
 }
 @media (min-width: 425px){
   .nosotros-cont{
@@ -450,7 +477,7 @@ body{
 }
 @media (min-width: 375px){
   .hero{
-    padding-bottom: 5em;
+    /* padding-bottom: 5em; */
   }
   .content img{
     padding-bottom: 2em;
@@ -461,6 +488,6 @@ body{
 }
 @media (min-width: 340px){
   .hero{
-    padding-bottom: 2em;
+    /* padding-bottom: 2em; */
   }
 }

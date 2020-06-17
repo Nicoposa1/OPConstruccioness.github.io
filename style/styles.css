@@ -161,6 +161,7 @@ body{
   width: 100%;
   filter: opacity(85%) blur(1px);
   border-bottom: 3px solid #EBAD1C;
+  max-height: 300px;
 }
 .content button{
   background-color: white;
@@ -174,12 +175,15 @@ body{
   .content button:hover{
     background: #EBAD1C;
   }
+  .content button a:hover{
+    color: white;
+  }
 
 /* <-- End Head --> */
 /* <-- Nosotros --> */
 .nosotros-cont{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .nosotros-cont h1{
   border-bottom: 2px solid #EBAD1C;
@@ -216,6 +220,7 @@ body{
 }
 .servicios_beneficios{
   background-color: #4d4d4d;
+  text-align: center;
 }
 .beneficio-p{
   padding: 0 1em;
@@ -469,10 +474,23 @@ body{
     height: 350px;
     width: 500px;
   }
+  .content button{
+    height: 2.5em;
+  }
+  .content button a{
+    font-size: 1.3em;
+  }
 }
 @media (min-width: 425px){
   .nosotros-cont{
-    padding-top: 3em;
+    /* padding-top: 3em; */
+    margin-top: 80px;
+  }
+  .hero{
+    padding: 4em 1em .5em 1em;
+  }
+  .tittle{
+    padding-top: 30px;
   }
 }
 @media (min-width: 375px){

@@ -159,7 +159,7 @@ body{
   right: 0;
   bottom: 0em;
   width: 100%;
-  filter: opacity(85%) blur(1px);
+  filter: opacity(75%) blur(2.5px);
   border-bottom: 3px solid #EBAD1C;
   max-height: 300px;
 }
@@ -183,7 +183,7 @@ body{
 /* <-- Nosotros --> */
 .nosotros-cont{
   text-align: center;
-  margin-top: 60px;
+  margin-top: 75px;
 }
 .nosotros-cont h1{
   border-bottom: 2px solid #EBAD1C;
@@ -193,7 +193,7 @@ body{
 }
 .nosotros-cont p{
   margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
 }
 .nosotros-img{
   margin:0
@@ -383,8 +383,20 @@ body{
   color: black;
   text-decoration: underline;
 }
-
 @media (min-width: 768px){
+  p{
+    font-size: 1.2em;
+  }
+  h1{
+    font-size: 1.7em;
+  }
+
+  .portafolio-cont{
+    padding-bottom: 30px;
+  }
+  .nosotros{
+    padding-bottom: 30px;
+  }
   .container{
     max-width: 768px;
     margin: auto;
@@ -433,7 +445,7 @@ body{
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #EBAD1C;
-    padding: 0px;
+    padding: 0px 2px;
   }
   .hero-con{
     padding:0 ;
@@ -463,6 +475,9 @@ body{
   .design p{
     font-size: 1.3em;
   }
+  .menu a:hover{
+    border-bottom: 2px solid #EBAD1C;
+  }
 }
 
 @media (min-width: 500px){
@@ -477,9 +492,9 @@ body{
   .content button{
     height: 2.5em;
   }
-  .content button a{
-    font-size: 1.3em;
-  }
+    .content button a{
+      font-size: 1.3em;
+    }
 }
 @media (min-width: 425px){
   .nosotros-cont{
@@ -487,15 +502,15 @@ body{
     margin-top: 80px;
   }
   .hero{
-    padding: 4em 1em .5em 1em;
+    /* padding: 4em 1em .5em 1em; */
   }
   .tittle{
     padding-top: 30px;
   }
 }
 @media (min-width: 375px){
-  .hero{
-    /* padding-bottom: 5em; */
+  .nosotros-cont{
+    margin-top: 80px;
   }
   .content img{
     padding-bottom: 2em;

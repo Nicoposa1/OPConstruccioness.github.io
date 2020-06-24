@@ -314,21 +314,42 @@ body{
   display: flex;
   margin: 0;
   justify-content: center;
-  padding-top: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 1em;
   align-items: center;
 }
 .email p{
   color: white;
 }
+  .email a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+  }
+    .email a:hover{
+      border-bottom: 2px solid white;
+    }
 .phone{
+  height: 40px;
+}
+.phone a{
   justify-content: center;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  border-bottom: 1px solid white;
 }
+  .phone a:hover{
+    border-bottom: 2px solid white;
+  }
 .phone p{
   color: white;
   padding-left: .5em;
+  margin: 0;
 }
+
 .p-phone {
   margin: 0;
   padding-left: .5em;

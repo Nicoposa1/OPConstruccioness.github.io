@@ -318,6 +318,9 @@ body{
   padding-bottom: 1em;
   align-items: center;
 }
+.email{
+  height:40px;
+}
 .email p{
   color: white;
 }

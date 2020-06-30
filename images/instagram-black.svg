@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_74" data-name="Rectangle 74" width="18" height="18" transform="translate(343 347)" fill="#4d4d4d" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_33" data-name="Mask Group 33" transform="translate(-343 -347)" clip-path="url(#clip-path)">
+    <g id="instagram" transform="translate(343 347)">
+      <path id="Path_78" data-name="Path 78" d="M2.637,18H15.363A2.64,2.64,0,0,0,18,15.363V2.637A2.64,2.64,0,0,0,15.363,0H2.637A2.64,2.64,0,0,0,0,2.637V15.363A2.64,2.64,0,0,0,2.637,18ZM1.055,2.637A1.584,1.584,0,0,1,2.637,1.055H15.363a1.584,1.584,0,0,1,1.582,1.582V15.363a1.584,1.584,0,0,1-1.582,1.582H2.637a1.584,1.584,0,0,1-1.582-1.582Zm0,0" fill="#4d4d4d"/>
+      <path id="Path_79" data-name="Path 79" d="M8.527,13.273A4.746,4.746,0,1,0,3.781,8.527,4.752,4.752,0,0,0,8.527,13.273Zm0-8.438A3.691,3.691,0,1,1,4.836,8.527,3.7,3.7,0,0,1,8.527,4.836Zm0,0" transform="translate(0.473 0.473)" fill="#4d4d4d"/>
+      <path id="Path_80" data-name="Path 80" d="M12.863,5.07a1.582,1.582,0,1,0-1.582-1.582A1.584,1.584,0,0,0,12.863,5.07Zm0-2.109a.527.527,0,1,1-.527.527A.528.528,0,0,1,12.863,2.961Zm0,0" transform="translate(1.41 0.238)" fill="#4d4d4d"/>
+    </g>
+  </g>
+</svg>

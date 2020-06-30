@@ -87,8 +87,8 @@ body{
   text-align: center;
   position: fixed;
   z-index: 40;
-  left: 5px;
-  top: 7px;
+  left: 15px;
+  top: 10px;
   font-size: 1.2em;
 }
 /* <-- end header --> */
